@@ -1,0 +1,94 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fee13d url(../img/woman.jpg) no-repeat bottom right;
+    height: 100vh;
+    min-height: 575px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 1024px) {
+    body{
+        background: #fee13d;
+    }
+}
+
+header{
+    box-sizing: border-box;
+    flex: 0 1 auto;
+}
+
+section{
+    width: 100%;
+    box-sizing: border-box;
+    flex: 2 auto;
+}
+
+footer {
+    width: calc( 100% - 60px);
+    background-color: #000000;
+    font-family: Georgia,serif;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+}
+
+h1, #logo{
+    text-align: center;
+}
+
+h1{
+    margin: 0 50px 50px 50px;
+    font-size: 35px;
+}
+
+.settings {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.settings > p {
+    font-size: 26px;
+}
+
+footer > ul {
+    list-style: none;
+    -webkit-padding-start: 0;
+}
+
+footer li {
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #9E9E9E;
+    font-style: italic;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+#surprise {
+    color: red;
+    font-size: 35px;
+}
